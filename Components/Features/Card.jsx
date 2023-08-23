@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 const Card = ({ card }) => {
     const { icon, title, des } = card;
     return (
-        <div className=' '>
+        <div className='text-white '>
             <div className=" Card md:w-96 w-80 ">
                 <div className="">
                     <img src={icon} alt="" />

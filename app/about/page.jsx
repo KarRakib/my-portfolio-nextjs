@@ -15,9 +15,9 @@ const About = () => {
                 Most of my time I design and build digital products. I prefer to keep learning, continue challenging myself,and do interesting things that matter</p>
            <h3 className='text-start mt-4 font-bold text-[#b73e77] rounded-lg'> FIND WITH ME</h3>
             <div className='flex gap-1'>
-                <Button><a href="" target="_blank"> <FaFacebook className='text-xl mx-1' /> </a></Button>
-                <Button> <a href="" target="_blank">  <FaGithub className='text-xl mx-1' /> </a></Button>
-                <Button><a href="" target="_blank"> <FaLinkedin className='text-xl mx-1' /> </a></Button>
+                <Button><a href="https://www.facebook.com/KRA24587" target="_blank"> <FaFacebook className='text-xl mx-1' /> </a></Button>
+                <Button> <a href="https://github.com/KarRakib" target="_blank">  <FaGithub className='text-xl mx-1' /> </a></Button>
+                <Button><a href="https://www.linkedin.com/in/kar-rakib27/" target="_blank"> <FaLinkedin className='text-xl mx-1' /> </a></Button>
                 
                 
             </div>
