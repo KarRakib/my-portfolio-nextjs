@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import Button from '../../Components/Button';
 const Hero = () => {
     return (
-        <div className='py-10 pl-4 flex md:w-[1200px] lg:w-[1600px] mx-auto flex-col lg:flex-row'>
+        <div className='py-10 pl-4 flex md:w-[1200px] lg:w-[1550px] mx-auto flex-col lg:flex-row'>
             <div className='w-1/2 self-center '>
                 <h1 className='md:text-6xl text-white text-3xl mb-4 font-semibold'>
                     Hi, There I'm Kar Rakib

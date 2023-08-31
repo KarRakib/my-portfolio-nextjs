@@ -7,18 +7,18 @@ const Navbar = () => {
     
     const navItems = <>
 
-        <li><Link href={'/'}> Home </Link> </li>
-        <li><Link href={'/about'}> About </Link> </li>
-        <li><Link href={'/project'}> Project </Link> </li>
+        <li className='px-2'><Link href={'/'}> Home </Link> </li>
+        <li className='px-2'><Link href={'/about'}> About </Link> </li>
+        <li className='px-2'><Link href={'/project'}> Project </Link> </li>
         {
-            user ? <li> <button > LogOut</button> </li>
-            :<li><Link href={'/login'}> Log In </Link> </li>
+            user ? <li className='px-2'> <button > LogOut</button> </li>
+            :<li> className='px-2'<Link href={'/login'}> Log In </Link> </li>
         }
-        <li><Link href={'/contact'}> Contact </Link> </li>
+        <li className='px-2'><Link href={'/contact'}> Contact </Link> </li>
        
     </>
     return (
-        <div className="navbar text-white md:w-[1200px] fixed-top mx-auto lg:w-[1600px] ">
+        <div className="navbar text-white md:w-[1200px] fixed-top mx-auto lg:w-[1550px] ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="  menu-horizontal px-1">
                     {navItems}
                 </ul>
             </div>

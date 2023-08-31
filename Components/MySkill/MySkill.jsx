@@ -20,7 +20,7 @@ const MySkill = () => {
         { type: 'Mongodb', level: 70 },
     ]
     return (
-        <div className='py-7 md:w-[1200px] lg:w-[1600px] text-white mx-auto  '>
+        <div className='py-7 md:w-[1200px] lg:w-[1550px] text-white mx-auto  '>
             <h3 className='text-4xl font-semibold  header-3'> MY SKILL</h3>
             <div className='flex flex-col lg:flex-row gap-5'>
 
@@ -44,7 +44,7 @@ const MySkill = () => {
                 </div>
 
             </div>
-            <div>
+            <div className='w-full'>
                 <h4 className='text-center text-xl font-semibold py-6 familiar'>  My familiar technology</h4>
                 <div className='bg-[#1b1e22] text-white w-full '>
                     <Marquee gradientColor='none' >
